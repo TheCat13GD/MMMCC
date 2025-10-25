@@ -1,0 +1,157 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2 {
+    font-size: 30px;
+    padding: 4px;
+    border-top: 4px solid #70B91A;   /* top border */
+    border-left: 4px solid #70B91A;  /* left border */
+    border-radius: 8px;
+    border-top-style: groove;
+    border-left-style: groove;
+}
+
+p, li {
+    font-size: 20px;
+}
+
+header {
+    background-image: url('../Assets/Banner.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.headercontainer {
+    display: flex;
+    gap: 10px;
+}
+
+.headerimg {
+    padding: 20px;
+}
+
+.headertext {
+    padding: 20px;
+    line-height: 0px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 265px;
+}
+
+.links {
+    display: flex;
+}
+
+.headertext p, .headertext a {
+    padding-bottom: 20px;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+nav a {
+    color: black;
+}
+
+.headertext a, nav a:hover {
+    color: white;
+}
+
+.headertext a:hover {
+    color: #70B91A;
+}
+
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 32px;
+}
+
+.headercontainer h1 {
+    font-size: 72px;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #70B91A;
+    font-size: 24px;
+    padding: 20px;
+}
+
+a {
+    font-weight: bold;
+    margin-right: 20px;
+    white-space: nowrap;
+}
+
+main {
+    background-color: #2B252A;
+    padding: 20px;
+    color: white;
+}
+
+section {
+    padding-bottom: 12px;
+}
+
+section a {
+    color:#70B91A
+}
+
+section a:hover {
+    color: white;
+}
+
+.catalogsec {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    gap: 12px;
+}
+
+.item {
+    background-color: #4E4E50;
+    padding: 12px;
+    width: 150px;
+    line-height: 16px;
+}
+
+.item img {
+    width: 150px;
+}
+
+.item p {
+    font-size: 16px;
+}
+
+footer {
+    background-color: #70B91A;
+    padding: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+
+@media (max-width: 680px) {
+    .headercontainer {
+        flex-wrap: wrap;
+    }
+
+    .headerimg {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 602px) {
+    .item {
+        width: 40%;
+        margin: 0 auto;
+    }
+
+    .item img {
+        width: 100%;
+    }
+}
