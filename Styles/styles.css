@@ -131,7 +131,7 @@ section a:hover {
 footer {
     background-color: #70B91A;
     padding: 20px;
-    line-height: 20px;
+    line-height: 16px;
     text-align: center;
 }
 
@@ -154,4 +154,5 @@ footer {
     .item img {
         width: 100%;
     }
+
 }
